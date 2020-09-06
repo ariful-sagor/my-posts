@@ -18,6 +18,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/ariful-sagor/my-posts">
+            <Home />
+          </Route>
+          <Route exact path="/ariful-sagor.github.io/my-posts/">
+            <Home />
+          </Route>
           <Route path="/details/:postId">
             <Details />
           </Route>
